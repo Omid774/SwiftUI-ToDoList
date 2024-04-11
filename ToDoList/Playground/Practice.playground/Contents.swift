@@ -1,9 +1,9 @@
-import UIKit
+import Foundation
 
-var greeting = "Hello, playground"
-
-func fetch() {
-    print("ok")
+func omid() {
+    for i in 1...5 {
+        print(i)
+    }
 }
 
-fetch()
+omid()

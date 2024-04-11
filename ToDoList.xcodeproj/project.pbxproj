@@ -54,8 +54,8 @@
 		F777047D2BC8638E00EA4710 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		F777047F2BC8638F00EA4710 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F77704822BC8638F00EA4710 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		F777048A2BC865C600EA4710 /* Practice.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Practice.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F777048B2BC8667E00EA4710 /* security.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = security.md; path = "Extra Files/security.md"; sourceTree = SOURCE_ROOT; };
+		F7B200942BC883C2005D0069 /* Practice.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Practice.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,7 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				F777048B2BC8667E00EA4710 /* security.md */,
-				F777048A2BC865C600EA4710 /* Practice.playground */,
+				F7B200942BC883C2005D0069 /* Practice.playground */,
 			);
 			path = Playground;
 			sourceTree = "<group>";
