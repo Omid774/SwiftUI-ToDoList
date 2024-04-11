@@ -19,6 +19,8 @@
 		F777047D2BC8638E00EA4710 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F777047F2BC8638F00EA4710 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F77704822BC8638F00EA4710 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F777048A2BC865C600EA4710 /* Practice.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Practice.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F777048B2BC8667E00EA4710 /* security.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = security.md; path = "Extra Files/security.md"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		F777047A2BC8638E00EA4710 /* ToDoList */ = {
 			isa = PBXGroup;
 			children = (
+				F77704892BC865A200EA4710 /* Playground */,
 				F777047B2BC8638E00EA4710 /* ToDoListApp.swift */,
 				F777047D2BC8638E00EA4710 /* ContentView.swift */,
 				F777047F2BC8638F00EA4710 /* Assets.xcassets */,
@@ -65,6 +68,15 @@
 				F77704822BC8638F00EA4710 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F77704892BC865A200EA4710 /* Playground */ = {
+			isa = PBXGroup;
+			children = (
+				F777048B2BC8667E00EA4710 /* security.md */,
+				F777048A2BC865C600EA4710 /* Practice.playground */,
+			);
+			path = Playground;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
