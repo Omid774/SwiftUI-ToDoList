@@ -1,14 +1,13 @@
 import Foundation
 
-func fetch() -> Bool {
+func fetch() {
     
-    guard let url = URL(string: "https://www.google.com") else { return false }
+    guard let url = URL(string: "https://www.google.com") else { return }
     
     let task = URLSession.shared.dataTask(with: url) { data, _, error in
-        if let error = error { return false }
-        guard let data = data else { return false }
+        if let error = error { return }
+        guard let data = data else { return }
         print(data)
-        return true
     }
     task.resume()
 }
