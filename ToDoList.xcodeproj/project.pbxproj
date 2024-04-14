@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F73A1E9F2BCBB94E005B4032 /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73A1E9E2BCBB94E005B4032 /* TLButton.swift */; };
 		F74052772BC87758003F5B03 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F74052762BC87758003F5B03 /* FirebaseAuth */; };
 		F74052792BC87758003F5B03 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = F74052782BC87758003F5B03 /* FirebaseFirestore */; };
 		F740527B2BC87758003F5B03 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F740527A2BC87758003F5B03 /* FirebaseFirestoreSwift */; };
@@ -34,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F73A1E9E2BCBB94E005B4032 /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 		F740527C2BC87929003F5B03 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "ToDoList/Other/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		F74052822BC87C4B003F5B03 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		F74052842BC87C90003F5B03 /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				F740528A2BC87D05003F5B03 /* RegisterView.swift */,
 				F740528C2BC87D4D003F5B03 /* ToDoListItemView.swift */,
 				F758CD3A2BC9B7CE0057441E /* HeaderView.swift */,
+				F73A1E9E2BCBB94E005B4032 /* TLButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 				F74052932BC87E54003F5B03 /* MainViewViewModel.swift in Sources */,
 				F74052852BC87C90003F5B03 /* ToDoListView.swift in Sources */,
 				F740528B2BC87D05003F5B03 /* RegisterView.swift in Sources */,
+				F73A1E9F2BCBB94E005B4032 /* TLButton.swift in Sources */,
 				F74052952BC87E8E003F5B03 /* ProfileViewViewModel.swift in Sources */,
 				F74052832BC87C4B003F5B03 /* ProfileView.swift in Sources */,
 				F740528F2BC87DDB003F5B03 /* User.swift in Sources */,
