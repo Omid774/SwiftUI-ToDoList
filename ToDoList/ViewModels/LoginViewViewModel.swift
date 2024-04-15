@@ -10,6 +10,7 @@ import Foundation
 class LoginViewViewModel: ObservableObject {
     @Published var email = ""
     @Published var password = ""
+    @Published var errorMessage = ""
     
     init() {
         
@@ -17,6 +18,8 @@ class LoginViewViewModel: ObservableObject {
     
     func login() {
         guard !email.trimmingCharacters(in: .whitespaces).isEmpty, !password.trimmingCharacters(in: .whitespaces).isEmpty else { return }
+        
+        print("Called")
     }
     
     func validate() {
