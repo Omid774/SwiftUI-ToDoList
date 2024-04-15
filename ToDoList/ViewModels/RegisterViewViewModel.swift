@@ -37,7 +37,7 @@ class RegisterViewViewModel: ObservableObject {
         
         db.collection("users")
             .document(id)
-//            .setData(["name": name])
+            .setData(newUser.asDictionary())
     }
     
     private func validate() -> Bool {
