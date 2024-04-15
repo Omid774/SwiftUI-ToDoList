@@ -26,7 +26,7 @@ struct LoginView: View {
                         .textFieldStyle(DefaultTextFieldStyle())
                     
                     TLButton(title: "Log In", background: .blue) {
-                        // Attempt log in
+                        viewModel.login()
                     }
                     .padding()
 
