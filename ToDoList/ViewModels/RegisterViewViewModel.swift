@@ -20,10 +20,12 @@ class RegisterViewViewModel: ObservableObject {
             return
         }
         
-        Auth.auth().createUser(withEmail: email, password: password) { result, error in
+        Auth.auth().createUser(withEmail: email, password: password) { [weak self] result, error in
             guard let userId = result?.user.uid else {
                 return
             }
+            
+            self?.insertUserRecord(id: userId)
         }
     }
     
