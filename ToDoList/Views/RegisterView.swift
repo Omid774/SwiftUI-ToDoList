@@ -29,7 +29,7 @@ struct RegisterView: View {
                     .textFieldStyle(DefaultTextFieldStyle())
                 
                 TLButton(title: "Create Account", background: .green) {
-                    // Attempt registration
+                    viewModel.register()
                 }
                 .padding()
                 
