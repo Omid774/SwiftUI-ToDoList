@@ -13,7 +13,7 @@ struct MainView: View {
     var body: some View {
         if viewModel.isSignedIn, !viewModel.currentUserId.isEmpty {
             TabView {
-                ToDoListView()
+                ToDoListView(userId: viewModel.currentUserId)
                     .tabItem {
                         Label("Home", systemImage: "house")
                     }

@@ -8,6 +8,12 @@
 import SwiftUI
 
 struct ToDoListView: View {
+    @StateObject var viewModel = ToDoListViewViewModel()
+    
+    init() {
+        
+    }
+    
     var body: some View {
         NavigationView {
             VStack {

@@ -7,8 +7,7 @@
 
 import Foundation
 
-/// ViewModel for list of items view
-/// Primary tab
+/// ViewModel for single to do list item view (each row in items list)
 class ToDoListItemViewViewModel: ObservableObject {
     init() {}
 }
