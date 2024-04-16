@@ -8,8 +8,15 @@
 import SwiftUI
 
 struct ToDoListItemView: View {
+    let item: ToDoListItem
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            VStack {
+                Text(item.title)
+                Text("\(Date(timeIntervalSince1970: item.dueDate).formatted(date: .abbreviated, time: .shortened))")
+            }
+        }
     }
 }
 
