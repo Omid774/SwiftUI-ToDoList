@@ -20,11 +20,18 @@ class NewItemViewViewModel: ObservableObject {
         guard canSave else { return }
         
         // Get current user id
+        guard let uId = Auth.auth().currentUser?.uid else { return }
         
         // Create model
         
-        // Save model
         
+        // Save model
+        let db = Firestore.firestore()
+        db.collection("users")
+            .document(uId)
+            .collection("todos")
+            .document("123")
+            .setData([:])
     }
     
     var canSave: Bool {
