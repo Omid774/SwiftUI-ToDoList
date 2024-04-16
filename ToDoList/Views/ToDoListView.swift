@@ -20,7 +20,12 @@ struct ToDoListView: View {
         NavigationView {
             VStack {
                 List(items) { item in
-                    Text(item.title)
+                    ToDoListItemView(item: item)
+                        .swipeActions {
+                            Button("Delete") {
+                                
+                            }
+                        }
                 }
                 .listStyle(PlainListStyle())
             }
